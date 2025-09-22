@@ -1,0 +1,32 @@
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.category-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.2s;
+  background: #fafafa;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+  background: #f0f0f0;
+}
+
+.category-card img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 6px;
+}
+
+.category-card h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}

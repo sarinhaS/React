@@ -1,0 +1,36 @@
+.meal-detail {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.meal-detail h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.meal-detail img {
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.meal-detail p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.meal-detail h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #222;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
